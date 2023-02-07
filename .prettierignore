@@ -1,0 +1,7 @@
+# 此文件配置prettier不格式化哪些文件
+# Ignore artifacts:
+build
+coverage
+
+# Ignore all HTML files:
+*.html

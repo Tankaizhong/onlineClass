@@ -1,0 +1,17 @@
+.NoFoundContent {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+}
+lottie-player {
+  display: inline-block;
+  padding-right: 90px;
+}
+h1 {
+  display: inline-block;
+  position: absolute;
+  line-height: 500px;
+}
