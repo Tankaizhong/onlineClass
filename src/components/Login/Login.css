@@ -1,0 +1,23 @@
+#center .absolute {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#center .relative {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.login-form {
+  margin-top: 20px;
+  padding-right: 90px;
+  width: 500px;
+}
+.login-form .to-registe {
+  margin-top: 12px;
+}
+.login-form .remenber-me .login-form-forgot {
+  float: right;
+}

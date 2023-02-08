@@ -5,9 +5,9 @@ export default function CreateLottie({
   loop = "true",
   autoplay = "true",
   background = "transparent",
-  className,
-  style,
   speed = 1,
+  class:calssname,
+  style,
 }: {
   src: string;
   [key: string]: string | boolean | number | Object;
@@ -19,6 +19,6 @@ export default function CreateLottie({
     autoplay,
     speed,
     style,
-    className,
+    class:calssname,
   });
 }
