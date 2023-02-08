@@ -1,9 +1,4 @@
-###Genomics Class
-# onlineClass
-
-# onlineClass
-
-# onlineClass
+###Genomics Class OnlineClass
 
 # Getting Started with Create React App
 
