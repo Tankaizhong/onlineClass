@@ -2,19 +2,21 @@
 @import "../../styles/center.less";
 
 .NoFoundContent {
-  position: absolute;
   #center.absolute();
   width: @ContentSize;
   height: @ContentSize;
+
+  lottie-player {
+    display: inline-block;
+    padding-right: 50px;
+  }
+  h1 {
+    display: inline-block;
+    margin-top: -20px;
+    position: absolute;
+    line-height: @ContentSize;
+  }
 }
 
-lottie-player {
-  display: inline-block;
-  padding-right: 90px;
-}
 
-h1 {
-  display: inline-block;
-  position: absolute;
-  line-height: @ContentSize;
-}
+

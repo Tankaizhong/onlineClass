@@ -1,6 +1,6 @@
 import React from "react";
 import "./NoFound.css";
-import CreateLottie from "../../utils/CreateLottie";
+import CreateLottie from "../../publicComponent/business/CreateLottie";
 import "../../assets/lottie-player"
 export default function NoFound() {
   return (

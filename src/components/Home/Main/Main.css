@@ -10,3 +10,7 @@
   top: 50%;
   transform: translate(-50%, -50%);
 }
+.site-layout-content {
+  height: 1000px;
+  background-color: pink;
+}

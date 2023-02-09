@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Checkbox, Form, Input } from "antd";
 import "./Login.css";
-import CreateLottie from "../../utils/CreateLottie";
+import CreateLottie from "../../publicComponent/business/CreateLottie";
 import { useNavigate } from "react-router";
 export default function Login() {
   

@@ -1,0 +1,12 @@
+.layout .icone-header {
+  width: 200px !important;
+}
+.layout img {
+  height: 100px;
+}
+.layout .main-content {
+  position: relative;
+  width: 100%;
+  background-color: pink;
+  height: 1000px;
+}

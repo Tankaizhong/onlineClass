@@ -1,22 +1,22 @@
 import React from "react";
-import routes from "./router/routes";
-import { useRoutes } from "react-router-dom";
 import { ConfigProvider, theme } from "antd"; //修改主题
-import { colorPr as colorPrimary } from "./styles/Theme";
+import { colorPr as colorPrimary, colorBgContainer } from "./styles/Theme";
 import "animate.css"; //动画库
-// import lottie from "lottie-web";
-// window.lottie = lottie;
+import Home from "./components/Home/Index";
 function App() {
   return (
     <ConfigProvider
       theme={{
         token: {
-          colorPrimary,
+          colorPrimary, //品牌主题
+          colorBgContainer, //组件容器背景色
         },
         algorithm: theme.compactAlgorithm,
       }}
     >
-      <div className="App">{useRoutes(routes)}</div>
+      <div className="App">
+        <Home />
+      </div>
     </ConfigProvider>
   );
 }
